@@ -24,3 +24,6 @@ relationship OneToMany {
 }
 
 paginate Artist, Genre, Track, Album with pagination
+
+dto * with mapstruct
+service * with serviceImpl
